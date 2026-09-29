@@ -40,3 +40,28 @@ body {
 li{
     margin-bottom: 12px;
 }
+
+header {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.imagem {
+    position: absolute;
+    right: 0;
+}
+
+.imagem img {
+    width: 80px;
+    border-radius: 50%;
+}
